@@ -1,0 +1,36 @@
+.carousel-item{
+    height: 600px;
+    object-fit: cover;
+}
+
+.imagen-camiseta{
+    height: 300px;
+    width: 300px;
+}
+
+.clearfix img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.tarjeta{
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.boton-aboutUs{
+    width: 20%;
+}
+
+#carouselExampleSlidesOnly .carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 400px;  /* Ajusta a la altura que desees para el carrusel */
+}
+
+#carouselExampleSlidesOnly .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}

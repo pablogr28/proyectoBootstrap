@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+}
+
+header,footer,nav{
+    height: 10vh;
+}
+
+.cuerpo{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/stadium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario{
+    width: 700px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.formulario input{
+    width: 100%;
+}
